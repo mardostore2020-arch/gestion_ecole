@@ -1,0 +1,5 @@
+<h2>Liste des professeurs</h2>
+
+<ul>
+    <li th:each="p : ${professeurs}" th:text="${p.nom}"></li>
+</ul>
